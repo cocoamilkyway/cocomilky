@@ -5,53 +5,13 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "GowunBatang";
+    font-family: "MabinogiClassic";
 }
 body {
     width: 100%;
     height: 100vh;
+    background: #fdf7ea;
 }
-
-body.image01 {
-    background: #000 url(../../effect/img/effect_bg01-min.jpg) no-repeat center / cover;
-}
-
-body.image02 {
-    background: #000 url(../../effect/img/effect_bg01-min.jpg) no-repeat center / cover;
-}
-
-body.image03 {
-    background: #000 url(../../effect/img/effect_bg01-min.jpg) no-repeat center / cover;
-}
-
-body.image04 {
-    background: #000 url(../../effect/img/effect_bg01-min.jpg) no-repeat center / cover;
-}
-
-body.image05 {
-    background: #000 url(../../effect/img/effect_bg01-min.jpg) no-repeat center / cover;
-}
-
-body.image06 {
-    background: #000 url(../../effect/img/effect_bg01-min.jpg) no-repeat center / cover;
-}
-
-body.image07 {
-    background: #000 url(../../effect/img/effect_bg01-min.jpg) no-repeat center / cover;
-}
-
-body.image08 {
-    background: #000 url(../../effect/img/effect_bg01-min.jpg) no-repeat center / cover;
-}
-
-body.image09 {
-    background: #000 url(../../effect/img/effect_bg01-min.jpg) no-repeat center / cover;
-}
-
-body.image10 {
-    background: #000 url(../../effect/img/effect_bg01-min.jpg) no-repeat center / cover;
-}
-
 
 
 body::after {
@@ -65,7 +25,7 @@ body::after {
     z-index: -1;
 }
 a {
-    color: #fff;
+    color: #302322;
     text-decoration: none;
 }
 /* scroll */
@@ -88,16 +48,27 @@ a {
     position: absolute;
     left: 0;
     top: 0;
-    color: #fff;
+    color: #302322;
     padding: 20px;
 }
 #header h1 {
+    background-color: #2c201f8a;
+    width: 250px;
+    height: 50px;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+#header h2 {
     display: inline-block;
     font-weight: 300;
     margin-bottom: 10px;
     text-underline-position: below;
     text-decoration: wavy;
 }
+
 #header p {
     margin-bottom: 10px;
 }
@@ -106,15 +77,17 @@ a {
     display: inline-block;
 }
 #header li.active a {
-    background-color: #fff;
-    color: #33377D;
+    background-color: #302322;
+    color: #fdf7ea;
 }
 #header li a {
     border: 1px solid rgba(255,255,255,0.5);
-    border-radius: 40%;
+    border-radius: 10px;
+    padding: 5px 10px;
+    margin: 5px;
     display: inline-block;
-    width: 30px;
-    height: 30px;
+    /* width: 30px;
+    height: 30px; */
     text-align: center;
     line-height: 30px;
     font-size: 14px;
