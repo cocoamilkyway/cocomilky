@@ -307,11 +307,17 @@ a {
 }
 @media (max-width:600px) {
     #header {
-        text-align: center;
-        width: 100px;
+    margin: 0 auto;
+    /* text-align: center; */
     }
-    #header h1{
+    #header h1 {
+
+    }
+    #header h2{
         line-height: 1.4;
+    }
+    .slider img {
+        width: 70%;
     }
     .modal__box {
         width: 96%;
