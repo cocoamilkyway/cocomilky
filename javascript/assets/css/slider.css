@@ -316,8 +316,11 @@ a {
     #header h2{
         line-height: 1.4;
     }
+
     .slider img {
-        width: 70%;
+        width: 60%;
+        box-sizing: border-box;
+        
     }
     .modal__box {
         width: 96%;
