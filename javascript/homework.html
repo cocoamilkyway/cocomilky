@@ -47,7 +47,7 @@
         .slider img {
             width: 100%;
             box-sizing: border-box;
-
+            background-size: cover;
         }
 
         /* 이미지를 감싸고 있는 부모 : 움직이는 부분 */
@@ -68,6 +68,7 @@
 
         .slider:nth-child(1)::before {content: '이미지1';}
         .slider:nth-child(2)::before {content: '이미지2';}
+        .slider:nth-child(3)::before {content: '이미지3';}
         
         .slider:nth-child(1) {
             z-index: 5;
@@ -89,6 +90,10 @@
             .slider__img {
             width: 400px;
             height: 400px;
+
+        }
+        .slider img {
+            background-size: contain;
         }
         }
 
@@ -117,7 +122,8 @@
                 <div class="slider__img">
                     <div class="slider__inner">
                         <div class="slider"><img src="assets/img/lecture01.JPG" alt=""></div>
-                        <div class="slider"><img src="assets/img/test01.png" alt=""></div>
+                        <div class="slider"><img src="assets/img/Lecture2.jpg" alt=""></div>
+                        <div class="slider"><img src="assets/img/Lecture 3.jpg" alt=""></div>
                     </div>
                 </div>
             </div>
